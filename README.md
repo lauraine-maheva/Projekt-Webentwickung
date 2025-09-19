@@ -89,9 +89,10 @@ Die Aufgabe bestand darin, eine **Kinderrockstar-Webseite** zu gestalten – ein
 
 ---
 
-## 📷 Screenshots (optional)
+## 🎥 Video
 
-*(Hier könnten Screenshots eingefügt werden, z. B. Startseite, Navigation, Footer.)*
+👉 [Sehen Sie sich das Demonstrationsvideo an]( video.mp4 )
+
 
 ---
 
