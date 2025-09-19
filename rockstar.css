@@ -1,0 +1,177 @@
+/* Général */
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #fff;
+    color: #2d2f2b;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: #2d2f2b;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-top: 0.5rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+  }
+  
+  /* Section héros */
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    color: #2d2f2b;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero button {
+    background-color: #2d2f2b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #444;
+  }
+  
+  /* Vidéo */
+  .video-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+  }
+  
+  /* Sections informatives */
+  .sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .section-box {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .section-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .section-box img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+  }
+  
+  .section-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-box p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  /* Pied de page */
+  .footer-multi {
+    background-color: #2d2f2b;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3, .footer-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ffcc00;
+  }
+  
+  .footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: text-decoration 0.3s, color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons img {
+    background-color: #444444;
+    padding: 0.5rem;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transition: background-color 0.3s;
+  }
+  
+  .social-icons img:hover {
+    background-color: #ffcc00;
+  }
+  
+  
